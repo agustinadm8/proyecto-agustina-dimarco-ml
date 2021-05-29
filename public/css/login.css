@@ -2,6 +2,7 @@
   box-sizing: border-box;  
 }
 
+
 .main-header{
     background-color: yellow;
     padding: 20px;
@@ -42,6 +43,7 @@
 
 body{
     font-family: 'Roboto', sans-serif; 
+    padding-top: 260px;
 }
 
 main{
@@ -111,6 +113,10 @@ footer i {
 
 @media (min-width:481px) {
 
+    body{
+        padding-top: 126px;
+    }
+
     .main-header{
         width: 100%;
     }
@@ -172,6 +178,10 @@ footer i {
 }
 
 @media (min-width:769px) {
+
+    body{
+        padding-top: 200px;
+    }
 
 
     header{
