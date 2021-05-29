@@ -1,0 +1,406 @@
+*{
+  box-sizing: border-box;  
+}
+
+.main-header{
+    z-index: 10;
+    background-color: yellow;
+    padding: 20px;
+    padding-bottom: 5px;
+    position: fixed;
+    top:0;
+} ul{
+    list-style-type: none;
+}
+
+.main-header-top-bar{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.main-header-bottom-bar{
+    display: none;
+}
+
+#busqueda{
+    background-color: #ebebeb;
+    padding: 1px;
+    border: solid 0.5px black;
+}
+
+.right-navbar{
+    display: none;
+}
+
+.logoml{
+    width: 50%;
+}
+
+#search{
+    margin-left: 10px;
+}
+
+.copy-header{
+    font-weight: 400;
+    text-align: center;
+}
+
+.burger-menu{
+    color: white;
+    background-color: #1259c3;
+    text-align: center;
+    margin-left: 45%;
+    margin-right: 45%;
+    margin-bottom: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 10%;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;  
+    padding-top: 15vh;
+}
+
+#banner{
+    width: 100%;
+}
+
+main{
+    width: 90%;
+    margin: auto; 
+    text-align: center;
+    background-color: #ebebeb;
+} h2 {
+    display: none;
+}
+
+.titulares{
+    font-size: 24px;
+    color: #666;
+    text-align: left;
+    padding-left: 15px;
+}
+
+
+.article{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    margin-bottom: 10px;
+    transition: all, 1s;
+} 
+
+.article:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.article i {
+    color: #39b54a;
+    border-radius: 50%; 
+    border: solid 1px #39b54a;
+    background-color: white;
+    padding: 10px;
+    position: absolute;
+    right: 15px;
+    top: -20px;
+    transition: all 2s;
+}
+
+.article:hover i{
+    transform: rotate(360deg);
+}
+
+.caja-article{
+    position: relative;
+    background-color: white;
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+} 
+
+.caja-article div{
+    display: flex;
+    text-align:center;
+}
+ 
+.precio{
+    align-self: center;
+    width: 30%;
+    font-size: 18px;
+}
+
+.d{
+    align-self: center;
+    width: 70%;
+    font-size: 16px;
+    color: #39b54a;
+}
+
+.descripcion{
+    font-size: 16px;
+    display: none;
+}
+
+.texto{
+    font-size: 12px;
+
+}
+
+div.container {
+    width: 96%;
+    max-width: 960px;
+    margin: 0 auto;
+    }
+    img {
+    width: 100%;
+    height: auto;
+    }
+
+footer{
+    text-align: center;
+    color: #666;
+}
+
+footer i {
+    color: #1259c3;
+    margin-bottom: 10px;
+    size: 2em;
+}
+
+
+@media (min-width:481px) {
+
+    body{
+        padding-top: 15vh;
+    }
+
+
+    .main-header{
+        width: 100%;
+    }
+
+    .main-header-top-bar{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around;
+        align-items: center;
+    }
+
+    .logoml{
+        width: 30%;
+    }
+
+    .copy-header{
+        display: block;
+        font-size: 10px;
+    }
+
+    .main-header-bottom-bar{
+        display: flex;
+        flex-direction: row;
+        font-size: 10px;
+    } li {     
+        margin-left: 5px;
+        margin-right: 5px;    
+    }
+
+
+    .right-navbar{
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: row;
+    }
+
+    .left-navbar{
+        display: flex;
+        justify-content:flex-start;
+        flex-direction: row;
+    }
+
+    #search{
+        font-size: 10px;
+        display: flex;
+        flex-direction: row;
+        flex-grow: 20;
+    }
+
+    .burger-menu{
+        display: none;
+    }
+
+    #banner{
+        width: 100%;
+    }
+
+    main{
+        background-color: #ebebeb;
+        width: 100%;
+    }
+
+    #titulares{
+        text-align: left;
+        padding: 10px;
+    }
+
+    #ultima-visita{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+
+    #ofertas{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+
+    .article{
+        box-shadow: 0px 0px 10px rgb( 100 , 100 , 100 );
+        width: 40%;
+    }
+
+    .descripcion{
+        font-size: 16px;
+        display: none;
+    }
+
+    #ultima-visita > article:hover > .caja-article > .descripcion{
+        height: 35vh;
+    }
+
+    #ofertas > article:hover > .caja-article > .descripcion{
+        height: 35vh;
+    }
+
+}
+
+@media (min-width:769px) {
+
+    body {
+        padding-top: 15vh;
+    }
+
+    header{
+        width: 100%;
+    }
+
+    .descripcion{
+        display: flex;
+    }
+
+    .logoml{
+        width: 30%;
+        padding: 20px;
+    }
+
+    #busqueda{
+        display: block;
+    }
+
+    .copy-header{
+        display: block;
+        font-size: 14px;
+    }
+
+    .main-header-top-bar{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around;
+        align-items: center;
+    }
+
+
+    .main-header-bottom-bar{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    } li{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+
+    .right-navbar{
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: row;
+    }
+
+    .left-navbar{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+    }
+
+    .burger-menu{
+        display: none;
+    }
+
+    main{
+        background-color: #ebebeb;
+    }
+
+    #titulares{
+        text-align: left;
+    }
+
+    #ultima-visita{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+
+    #ofertas{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+
+    .article{
+        box-shadow: 0px 0px 10px rgb( 100 , 100 , 100 );
+        width: 20%;
+    }
+
+
+    .descripcion{
+        font-size: 16px;
+        display: block;
+        transition: all 1s;
+        overflow: hidden;
+        height: 0vh;
+    }
+
+    #ultima-visita > article:hover > .caja-article > .descripcion{
+        height: 35vh;
+    }
+
+    #ofertas > article:hover > .caja-article > .descripcion{
+        height: 35vh;
+    }
+
+    footer{
+        display: block;
+        margin: 20px;
+    }
+
+    #footer{
+        display: flex;
+    }
+
+   .container{
+        display: block;
+        padding: 5px;
+    }
+
+    footer i:hover{
+        color: #03264C;
+    }
+
+}
