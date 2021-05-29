@@ -41,8 +41,7 @@
 }
 
 body{
-    font-family: 'Roboto', sans-serif;
-    padding-top: 260px; 
+    font-family: 'Roboto', sans-serif; 
 }
 
 main{
@@ -113,10 +112,6 @@ footer i {
 
 @media (min-width:481px) {
 
-    body{
-        padding-top: 130px;
-    }
-
     .main-header{
         width: 100%;
     }
@@ -179,9 +174,6 @@ footer i {
 
 @media (min-width:769px) {
 
-    body{
-        padding-top: 160px;
-    }
 
     header{
         width: 100%;
