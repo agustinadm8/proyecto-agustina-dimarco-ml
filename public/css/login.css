@@ -41,7 +41,8 @@
 }
 
 body{
-    font-family: 'Roboto', sans-serif;  
+    font-family: 'Roboto', sans-serif;
+    padding-top: 265px; 
 }
 
 main{
