@@ -109,7 +109,7 @@
 
 body{
     font-family: 'Roboto', sans-serif;  
-    padding-top: 15vh;
+    padding-top: 29vh;
 }
 
 main #banner{
@@ -121,9 +121,13 @@ main{
     margin: auto; 
     text-align: center;
     background-color: #ebebeb;
-} h2 {
+}
+
+main h2 {
     display: none;
 }
+
+
 
 .titulares{
     font-size: 24px;
@@ -223,7 +227,7 @@ footer i {
 @media (min-width:481px) {
 
     body{
-        padding-top: 15vh;
+        padding-top: 13vh;
     }
 
 
@@ -331,7 +335,7 @@ footer i {
 @media (min-width:769px) {
 
     body {
-        padding-top: 15vh;
+        padding-top: 17vh;
     }
 
     header{
