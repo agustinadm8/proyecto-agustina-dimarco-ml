@@ -365,6 +365,7 @@ footer i {
 
 
     .main-header-bottom-bar{
+        font-size: 16px;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
