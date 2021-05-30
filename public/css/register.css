@@ -141,11 +141,15 @@ footer i {
 @media (min-width:481px) {
 
     body{
-        padding-top: 160px;
+        padding-top: 120px;
     }
 
     .descripcion{
         display: flex;
+    }
+
+    main > form{
+        padding-top: 30px
     }
 
     .main-header{
