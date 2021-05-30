@@ -115,6 +115,7 @@ main{
     background-color: #ebebeb;
 }
 
+
 div.container {
     width: 96%;
     max-width: 960px;
@@ -221,7 +222,7 @@ footer i {
 @media (min-width:769px) {
 
     body{
-        padding-top: 180px;
+        padding-top: 165px;
     }
 
     header{
