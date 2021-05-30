@@ -139,6 +139,11 @@ footer i {
 
 
 @media (min-width:481px) {
+
+    body{
+        padding-top: 160px;
+    }
+
     .descripcion{
         display: flex;
     }
@@ -205,12 +210,15 @@ footer i {
         padding-top: 30px;
         background-color: #ebebeb;
         width: 100%;
-        margin-top: 130px;
     }
 
 }
 
 @media (min-width:769px) {
+
+    body{
+        padding-top: 180px;
+    }
 
     header{
         width: 100%;
@@ -270,7 +278,6 @@ footer i {
     main{
         padding-top: 30px;
         background-color: #ebebeb;
-        margin-top: 165px;
         margin-bottom: 20px;
     }
 
