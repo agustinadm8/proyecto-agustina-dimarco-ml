@@ -7,7 +7,7 @@ body{
     margin: 15px;
     font-family: 'Roboto', sans-serif;
     display: block;  
-    padding-top: 240px;
+    padding-top: 220px;
 }
 
 .campo{
@@ -115,6 +115,9 @@ main{
     background-color: #ebebeb;
 }
 
+main > form{
+    padding-top: 30px
+}
 
 div.container {
     width: 96%;
@@ -142,7 +145,7 @@ footer i {
 @media (min-width:481px) {
 
     body{
-        padding-top: 120px;
+        padding-top: 100px;
     }
 
     .descripcion{
@@ -222,7 +225,7 @@ footer i {
 @media (min-width:769px) {
 
     body{
-        padding-top: 165px;
+        padding-top: 135px;
     }
 
     header{
